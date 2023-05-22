@@ -74,7 +74,7 @@
   .app__navbar-links {
     display: none;
   }
-  .app__smallnav-links {
+  .app__navbar-smallscreens {
     display: flex;
   }
 }
