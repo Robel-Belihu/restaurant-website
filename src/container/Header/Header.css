@@ -2,6 +2,13 @@
   background-color: var(--color-black);
 }
 .app__header h1 {
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  line-height: 117px;
   font-family: var(--font-base);
+  font-size: 80px;
   color: var(--color-golden);
+}
+.app__header img {
+  width: 80%;
 }
