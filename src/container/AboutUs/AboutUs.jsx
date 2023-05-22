@@ -26,8 +26,8 @@ const AboutUs = () => (
       <div className="app__aboutus-content_knife flex__center">
         <img src={images.knife} alt="aboutus_knife" />
       </div>
-      <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+      <div className="app__aboutus-content_history">
+        <h1 className="headtext__cormorant">History</h1>
         <img src={images.spoon} alt="spoon_image" className="spoon__img" />
         <p className="p__opensans">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
