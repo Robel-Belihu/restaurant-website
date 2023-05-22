@@ -42,6 +42,7 @@ const Navbar = () => {
         <GiHamburgerMenu
           color="#fff"
           fontSize={27}
+          className="small__humberger"
           onClick={() => {
             setToggleMenu(true);
           }}
