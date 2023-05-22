@@ -25,6 +25,42 @@ const Navbar = () => (
         <a href="#home">Contact</a>
       </li>
     </ul>
+    <div className="app__navbar-login">
+      <a href="#login" className="p__opensans">
+        Login / Register
+      </a>
+      <div />
+      <a href="/home" className="p__opensans">
+        Book a table
+      </a>
+    </div>
+    <div className="app__navbar-smallscreens">
+      <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => {}} />
+      <div className="app__navbar-smallscreens_overlay flex__center slide-bottom">
+        <MdOutlineRestaurantMenu
+          fontSize={27}
+          className="overlay__close"
+          onClick={() => {}}
+        />
+        <ul className="app__smallnav-links">
+          <li className="p__opensans">
+            <a href="#home">Home</a>
+          </li>
+          <li className="p__opensans">
+            <a href="#home">About</a>
+          </li>
+          <li className="p__opensans">
+            <a href="#home">Menu</a>
+          </li>
+          <li className="p__opensans">
+            <a href="#home">Awards</a>
+          </li>
+          <li className="p__opensans">
+            <a href="#home">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 );
 

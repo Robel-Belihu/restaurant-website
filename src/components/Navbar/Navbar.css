@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #7b3f00;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
 }
 .app__navbar-logo {
   display: flex;
@@ -13,4 +13,68 @@
 }
 .app__navbar-logo img {
   width: 150px;
+}
+.app__navbar-links {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.app__navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.app__navbar-links li:hover {
+  color: var(--color-gray);
+  transition: 0.3s ease;
+}
+.app__navbar-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.app__navbar-login a {
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.app__navbar-login a:hover {
+  border-bottom: 1px solid var(--color-golden);
+}
+.app__navbar-login div {
+  width: 1px;
+  height: 30px;
+  background-color: #fff;
+}
+.app__navbar-smallscreens {
+  display: none;
+}
+.app__navbar-smallscreens_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #7b3f00;
+  transition: 0.5s ease;
+  flex-direction: column;
+  z-index: 5;
+}
+.app__navbar-smallscreens_overlay .overlay__close {
+  font-size: 27px;
+  color: var(--color-golden);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__navbar-links {
+    display: none;
+  }
+  .app__smallnav-links {
+    display: flex;
+  }
 }
