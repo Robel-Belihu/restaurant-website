@@ -1,3 +1,7 @@
+## Fully responsive restaurant website built with ReactJS
+
+<img src="./src/assets/image__restaurantWebsite-xl.png" alt="alt text" width="600" height="600">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
