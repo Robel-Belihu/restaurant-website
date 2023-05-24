@@ -1,9 +1,9 @@
 ## Fully responsive restaurant website built with ReactJS
 
-<img src="./src/assets/image__restaurantWebsite-xl.png" alt="alt text" width="1080" height="560">
-<img src="./src/assets/image__restaurantWebsite-xl4.png" alt="alt text" width="1080" height="560">
-<img src="./src/assets/image__restaurantWebsite-xl6.png" alt="alt text" width="1080" height="560">
-<img src="./src/assets/image__restaurantWebsite-xl7.png" alt="alt text" width="1080" height="560">
+<img src="./src/assets/image__restaurantWebsite-xl.png" alt="alt text" width="1080" height="540">
+<img src="./src/assets/image__restaurantWebsite-xl4.png" alt="alt text" width="1080" height="540">
+<img src="./src/assets/image__restaurantWebsite-xl6.png" alt="alt text" width="1080" height="540">
+<img src="./src/assets/image__restaurantWebsite-xl7.png" alt="alt text" width="1080" height="540">
 
 # Getting Started with Create React App
 
